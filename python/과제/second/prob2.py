@@ -19,7 +19,7 @@ searchFile = open("python\과제\second\search_words.txt",
                   'r', encoding="UTF-8")
 searchList = searchFile.readlines()
 setSearch = set(searchList)
-searchList = setSearch
+searchList = list(setSearch)
 
 start = time.time()
 for data in searchList:
