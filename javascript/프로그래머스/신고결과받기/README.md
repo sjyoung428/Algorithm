@@ -1,3 +1,5 @@
+[문제 링크](https://programmers.co.kr/learn/courses/30/lessons/92334?language=javascript)
+
 ## 두 개의 배열 교집합 구하기
 
 `includes()` 함수는 배열이 특정값을 포함하고 있는지 확인하고 boolean값을 리턴한다.
