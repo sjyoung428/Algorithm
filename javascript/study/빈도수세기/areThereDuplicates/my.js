@@ -1,10 +1,16 @@
 const areThereDuplicates = (...args) => {
-  const lookup = {};
+  // const lookup = {};
 
-  for (let item of args) {
-    if (lookup[item]) return true;
-    lookup[item] = 1;
-  }
+  // for (let item of args) {
+  //   if (lookup[item]) return true;
+  //   lookup[item] = 1;
+  // }
+  // return false;
+
+  const setArr = new Set(args);
+  const newArr = [...setArr];
+
+  if (args.length !== newArr.length) return true;
   return false;
 };
 
