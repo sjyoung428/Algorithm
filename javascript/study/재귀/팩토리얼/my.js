@@ -7,7 +7,7 @@
 // };
 
 const factorial = (num) => {
-  if (num === 1) return num;
+  if (num === 1 || num === 0) return 1; // factorial(0) === 1
   return num * factorial(num - 1);
 };
 
