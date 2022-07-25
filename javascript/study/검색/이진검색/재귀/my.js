@@ -18,4 +18,5 @@ const binarySearch = (array, value) => {
   return recursive(left, right);
 };
 
-console.log(binarySearch([1, 2, 4, 5, 7, 8, 9], 2));
+console.log(binarySearch([1, 2, 4, 5, 7, 8, 9], 5));
+console.log(binarySearch([1, 2, 4, 5, 7, 8, 9], 3));
