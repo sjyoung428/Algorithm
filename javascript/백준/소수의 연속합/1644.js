@@ -33,7 +33,7 @@ const countResult = (prime, num) => {
     }
   }
 
-  if (prime[prime.length - 1] === num) {
+  if (prime.at(-1) === num) {
     count++;
   }
   return count;
